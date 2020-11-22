@@ -27,8 +27,8 @@
         android:gravity="center"
         android:hint="Username"
         android:textSize="24dp"
-        android:textStyle="bold"
-        />
+        android:textStyle="bold" />
+
     <EditText
         android:id="@+id/edit2"
         android:layout_width="238dp"
@@ -39,8 +39,8 @@
         android:hint="New Password"
         android:inputType="textPassword"
         android:textSize="24dp"
-        android:textStyle="bold"
-        />
+        android:textStyle="bold" />
+
     <EditText
         android:id="@+id/edit3"
         android:layout_width="241dp"
@@ -51,8 +51,8 @@
         android:hint="Confirm Password"
         android:inputType="textPassword"
         android:textSize="24dp"
-        android:textStyle="bold"
-        />
+        android:textStyle="bold" />
+
     <Button
         android:id="@+id/btn"
         android:layout_width="155dp"
@@ -62,5 +62,6 @@
         android:background="@android:color/holo_orange_light"
         android:fontFamily="serif"
         android:text="Change Password"
+
         />
 </LinearLayout>
